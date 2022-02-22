@@ -1,8 +1,30 @@
+:root {
+  --textColor: #111;
+}
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
   background: #eee;
+  padding: 0 15%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1 {
+  border-bottom: 1px solid var(--textColor);
+  color: var(--textColor);
+  text-align: center;
+}
+
+p {
+  margin: 25px auto;
+  max-width: 400px;
 }
