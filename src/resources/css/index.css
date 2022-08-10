@@ -1,0 +1,148 @@
+/* Fonts
+   =====================================================================
+*/
+
+@import "/@/fonts/liberation.css";
+
+/* Variables
+   =====================================================================
+*/
+
+:root {
+  --backgroundPage: #eee;
+  --textColor: #111;
+}
+
+/* Global
+   =====================================================================
+*/
+
+* {
+  box-sizing: border-box;
+  color: var(--textColor);
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  user-select: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--backgroundPage);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Page Structure
+   =====================================================================
+*/
+
+/* Header
+   ---------------------------------------------------------------------
+*/
+
+header {
+  height: 80px;
+}
+
+header h1 {
+  border-bottom: 1px solid var(--textColor);
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  line-height: 30px;
+}
+
+nav a {
+  padding: 0 5px;
+}
+
+/* Footer
+   ---------------------------------------------------------------------
+*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+footer > * {
+  margin: 0 0 10px;
+}
+
+footer time {
+  font-style: italic;
+}
+
+/* Main
+   ---------------------------------------------------------------------
+*/
+
+main {
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 25px 0 0;
+}
+
+/* Articles
+   ---------------------------------------------------------------------
+*/
+
+article h1, article time, article p {
+  display: block;
+  user-select: text;
+}
+
+article header {
+  height: unset;
+  padding-bottom: 40px;
+}
+
+article h1 {
+  border-bottom: unset;
+  height: unset;
+  line-height: unset;
+  text-align: unset;
+}
+
+article p {
+  padding: 0 0 20px;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+/* Classes
+   =====================================================================
+*/
+
+.current-category {
+  text-decoration: underline;
+}
+
+/* Media queries
+   =====================================================================
+*/
+
+@media prefers-color-scheme: dark {
+
+}
