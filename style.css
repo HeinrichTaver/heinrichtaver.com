@@ -6,7 +6,7 @@
     <https://caniuse.com/extended-system-fonts>
     <https://modernfontstacks.com>
     <https://systemfontstack.com>
-   */
+ */
   --ui-monospace: ui-monospace, menlo, consolas, monaco, liberation mono, lucida console, monospace;
   --ui-rounded: ui-rounded, hiragino maru gothic pron, quicksand, comfortaa, manjari, arial rounded mt, arial rounded mt bold, calibri, source-sans-pro, sans-serif;
   --ui-sans-serif: ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, avenir next, avenir, segoe ui, helvetica neue, helvetica, cantarell, ubuntu, roboto, noto, arial, sans-serif;
@@ -25,44 +25,136 @@
   user-select: none;
 }
 
+html,
+body {
+  overflow: visible;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
 header,
 main,
 footer {
-  max-width: 600px;
+  margin: 0 auto;
+  max-width: 650px;
 }
 
 header,
 footer {
-  margin: 25px auto;
+  padding: 25px;
   text-align: center;
 }
 
-a:hover {
-  text-decoration: underline;
+h1,
+h2 {
+  font-family: var(--ui-sans-serif);
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* Header */
 
-h1 {
-  font-family: var(--ui-sans-serif);
-  margin: 0 0 10px;
-}
-
-nav * {
+header * {
   font-family: var(--ui-sans-serif);
 }
 
-li {
+header h1 {
+  padding: 0 0 10px;
+}
+
+header li {
   display: inline-block;
+  padding: 5px 10px;
+  width: 75px;
 }
 
-.current-page {
-  font-weight: bold;
+header a {
+  padding: 5px 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header > a {
+  color: #0000ee;
+  text-decoration: underline;
 }
 
 /* Main */
 
 main {
-  margin: 0 auto;
+  padding: 0 25px;
+}
+
+main * {
+  user-select: text;
+}
+
+main a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+main ul {
+  padding: 0 25px;
+}
+
+main li {
+  font-size: 1.2em;
+  list-style: initial;
+  margin: 0 auto 1em;
+  overflow: visible;
+}
+
+main h2 {
+  margin: 2em auto 1em;
   text-align: center;
+}
+
+main p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin: 0 auto 1em;
+  text-align: justify;
+}
+
+/* Footer */
+
+footer a {
+  font-family: var(--ui-monospace);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Modifiers */
+
+.font-bold {
+  font-weight: bold;
+}
+
+.select-text,
+.select-text * {
+  user-select: text;
+}
+
+.select-none,
+.select-none * {
+  user-select: none;
+}
+
+.width-400px-centralized {
+  margin: 0 auto;
+  max-width: 450px;
 }
