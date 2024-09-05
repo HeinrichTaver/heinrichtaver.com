@@ -1,33 +1,27 @@
 <!doctype html>
 
-<!--
-    draft: false
-  -->
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Heinrich's Blog Posts</title>
+    <title>%TITLE</title>
     <link rel="stylesheet" href="/style.css">
   </head>
 
   <body>
     <header>
-      <h1>Heinrich Taver's Blog Posts</h1>
+      <h1>%HEADER-TITLE</h1>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/now/">Now</a></li>
-          <li class="font-bold">Blog</li>
+          <li class="%CURRENT-PAGE"><a href="/">Home</a></li>
+          <li class="%CURRENT-PAGE"><a href="/now/">Now</a></li>
+          <li class="%CURRENT-PAGE"><a href="/blog/">Blog</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <ul class="width-400px-centralized">
-        <li><a href="/blog/not-superman/">2024 Jul 16 - I Am Not a Superman</a></li>
-      </ul>
+      %MAIN
     </main>
 
     <footer>

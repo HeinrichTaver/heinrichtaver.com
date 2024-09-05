@@ -140,8 +140,9 @@ footer a:hover {
 
 /* Modifiers */
 
-.font-bold {
+.header__link_current {
   font-weight: bold;
+  pointer-events: none;
 }
 
 .select-text,
