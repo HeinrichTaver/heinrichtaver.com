@@ -1,0 +1,14 @@
+#+title: ToDo
+#+date: <2024-09-06 sex>
+#+author: Heinrich van Tol Taver
+
+* TODO Entender como devo usar ~<article>~ para o blog
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+
+* TODO Adicionar analytics ao site
+
+Aqui posso simplesmente copiar o que faço no
+https://deals-curator.com, ou posso explorar abordagens alternativas,
+como desenvolver algo eu mesmo, ou simplesmente usar ferramentas que
+permitam análise de logs, como um /GoatCounter/ hospedado no NAS.
