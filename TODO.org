@@ -2,9 +2,30 @@
 #+date: <2024-09-06 sex>
 #+author: Heinrich van Tol Taver
 
+* TODO Refatorar CSS usando BEM
+
+Já que tenho usado a técnica de /Block Element Modifier/ em todos os
+meus sites, faz sentido que o meu site pessoal também esteja no mesmo
+padrão.
+
 * TODO Entender como devo usar ~<article>~ para o blog
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+
+* TODO Identificar como eu poderia usar o Structure Data no meu site
+
+https://developer.chrome.com/docs/lighthouse/seo/structured-data
+
+Esta é uma melhoria sugerida pela ferramenta /Lighthouse/ presente nos
+navegadores /Chromium/. Quanto mais coisa eu puder adicionar ao meu
+site, fazendo-o se parecer com algo extremamente profissional, melhor.
+
+* TODO Entender como devo usar ~picture~ no lugar da tag ~img~
+
+https://www.w3schools.com/tags/tag_picture.asp
+
+Aparentemente há uma solução nativa dos navegadores que permite
+trabalhar com diferentes resoluções de imagem, de maneira responsiva.
 
 * TODO Adicionar analytics ao site
 
