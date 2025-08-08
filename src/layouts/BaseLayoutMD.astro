@@ -1,24 +1,9 @@
 ---
-import PageHeader from "../components/PageHeader.astro";
-import PageMain from "../components/PageMain.astro";
-import PageFooter from "../components/PageFooter.astro";
+import BaseLayout from "./BaseLayout.astro";
 
 const { frontmatter } = Astro.props;
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{frontmatter.title}</title>
-  </head>
-  <body>
-    <PageHeader headerTitle={frontmatter.headerTitle} />
-    <PageMain>
-      <slot />
-    </PageMain>
-    <PageFooter />
-  </body>
-</html>
+<BaseLayout pageTitle={frontmatter.title} headerTitle={frontmatter.headerTitle}>
+  <slot />
+</BaseLayout>
