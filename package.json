@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "astro": "^5.12.9"
+  },
+  "name": "heinrichtaver.com",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview"
+  },
+  "type": "module",
+  "version": "0.0.1"
+}
