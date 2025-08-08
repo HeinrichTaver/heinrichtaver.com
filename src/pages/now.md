@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/BaseLayout.astro
+layout: ../layouts/BaseLayout.astro
 title: Heinrich's Now Page
 headerTitle: Heinrich Taver's Now Page
 ---
@@ -52,7 +52,7 @@ Maybe someday I will write in detail about it.
 
 The mais source of success for this project was the fact that I have a mother who knows her way around carpentry.
 
-![Floating desk table, with keyboard tray openned](../../images/floating-desk-table.jpg)
+![Floating desk table, with keyboard tray openned](../images/floating-desk-table.jpg)
 
 
 ## I Started to Dabble My Feet in the Vast Sales Ocean
