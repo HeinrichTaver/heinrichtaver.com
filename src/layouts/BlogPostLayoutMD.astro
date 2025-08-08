@@ -1,0 +1,29 @@
+---
+import BaseLayout from "./BaseLayout.astro"
+
+const { frontmatter } = Astro.props;
+
+const pageTitle = `${frontmatter.title} | Heinrich's Post`;
+const pubDate = frontmatter.pubDate.slice(0,10);
+
+const formattedDate = (timestamp) => {
+  const [year, month, day] = pubDate.split("-");
+
+  const months = [ "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December" ];
+  const monthName = months[parseInt(month, 10) - 1];
+
+  return `${year} ${monthName} ${parseInt(day, 10)}`;
+}
+---
+
+<BaseLayout pageTitle={pageTitle} headerTitle={frontmatter.title}>
+  <a href="/blog/">Go back to the post list</a>
+  <p>
+    <small>
+      <em>Written on <time datetime={pubDate}>{formattedDate(frontmatter.pubDate)}</time></em>.
+    </small>
+  </p>
+
+  <slot />
+</BaseLayout>

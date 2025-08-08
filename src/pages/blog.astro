@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Heinrich's Blog Posts";
+const headerTitle = "Heinrich Taver's Blog Posts";
+
+const allPosts = Object.values(import.meta.glob("./blog/*.md", { eager: true }));
+
+const formattedDate = (timestamp) => {
+  const [year, month, day] = timestamp.slice(0,10).split("-");
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const monthName = months[parseInt(month, 10) - 1];
+
+  return `${year} ${monthName} ${parseInt(day, 10)}`;
+}
+---
+
+<BaseLayout pageTitle={pageTitle} headerTitle={headerTitle}>
+  <ul>
+    {allPosts.map((post) => (
+    <li><a href={post.url}>{formattedDate(post.frontmatter.pubDate)} - {post.frontmatter.title}</a></li>
+    ))}
+  </ul>
+</BaseLayout>

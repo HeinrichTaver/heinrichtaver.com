@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/BaseLayout.astro
+layout: ../layouts/BaseLayoutMD.astro
 title: Heinrich's Home Page
 headerTitle: Heinrich Taver's Home Page
 ---

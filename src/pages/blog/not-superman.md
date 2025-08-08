@@ -1,13 +1,8 @@
 ---
-layout: ../../layouts/BaseLayout.astro
-title: I Am Not a Superman | Heinrich's Post
-headerTitle: I Am Not a Superman
+layout: ../../layouts/BlogPostLayoutMD.astro
+title: I Am Not a Superman
 pubDate: 2024-07-16
 ---
-
-[Go back to the post list](/blog/)
-
-Written on <time datetime="2024-07-16">July 16, 2024</time>.
 
 In August last year I went back to training at a gym.
 I spent a few years away from it, whether it was trying out *calisthenics* or being creative with some *kettlebells* I bought during the pandemic.

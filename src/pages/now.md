@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/BaseLayout.astro
+layout: ../layouts/BaseLayoutMD.astro
 title: Heinrich's Now Page
 headerTitle: Heinrich Taver's Now Page
 ---
