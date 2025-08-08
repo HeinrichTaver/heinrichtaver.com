@@ -1,0 +1,21 @@
+---
+const { headerTitle } = Astro.props;
+---
+
+<header>
+  <h1>{headerTitle}</h1>
+  <nav>
+    <ul>
+      <li class={Astro.url.pathname === "/" ? "current" : null}><a href="/">Home</a></li>
+      <li class={Astro.url.pathname === "/now" ? "current" : null}><a href="/now/">Now</a></li>
+      <li class={Astro.url.pathname.startsWith("/blog") ? "current" : null}><a href="/blog/">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+.current {
+  font-weight: bold;
+  pointer-events: none;
+}
+</style>
