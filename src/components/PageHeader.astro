@@ -7,8 +7,8 @@ const { headerTitle } = Astro.props;
   <nav>
     <ul>
       <li class={Astro.url.pathname === "/" ? "current" : null}><a href="/">Home</a></li>
-      <li class={Astro.url.pathname === "/now" ? "current" : null}><a href="/now/">Now</a></li>
-      <li class={Astro.url.pathname.startsWith("/blog") ? "current" : null}><a href="/blog/">Blog</a></li>
+      <li class={Astro.url.pathname === "/now/" ? "current" : null}><a href="/now/">Now</a></li>
+      <li class={Astro.url.pathname.startsWith("/blog/") ? "current" : null}><a href="/blog/">Blog</a></li>
     </ul>
   </nav>
 </header>
