@@ -1,0 +1,16 @@
+main {
+  * {
+    font-family: var(--ui-serif);
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.25em;
+    text-align: justify;
+  }
+
+  a {
+    color: #0000ee;
+    text-decoration: underline;
+  }
+}

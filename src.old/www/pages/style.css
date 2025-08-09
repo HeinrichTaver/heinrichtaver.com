@@ -36,17 +36,8 @@ img {
 
 /* Main */
 
-main {
-  padding: 0 25px;
-}
-
 main * {
   user-select: text;
-}
-
-main a {
-  color: #0000ee;
-  text-decoration: underline;
 }
 
 main ul {
@@ -66,10 +57,7 @@ main h2 {
 }
 
 main p {
-  font-size: 1.2em;
-  line-height: 1.4em;
   margin: 0 auto 1em;
-  text-align: justify;
 }
 
 /* Modifiers */
