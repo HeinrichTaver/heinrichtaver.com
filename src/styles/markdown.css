@@ -13,4 +13,10 @@ main {
     color: #0000ee;
     text-decoration: underline;
   }
+
+  h2 {
+    font-family: var(--ui-sans-serif);
+    margin-top: .75em;
+    text-align: center;
+  }
 }
