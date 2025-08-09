@@ -57,3 +57,5 @@ User-Agent: *
 DisallowAITraining: /
 Content-Usage: ai=n
 Allow: /
+
+Sitemap: https://heinrichtaver.com/sitemap-index.xml

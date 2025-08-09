@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@astrojs/sitemap": "^3.4.2",
     "astro": "^5.12.9"
   },
   "name": "heinrichtaver.com",
