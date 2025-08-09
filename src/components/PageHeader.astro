@@ -1,32 +1,57 @@
 ---
 const { headerTitle } = Astro.props;
+
+const navItems = [
+  {
+    label: "Home",
+    href: "/",
+    current: Astro.url.pathname === "/" ? "current" : null,
+  },
+  {
+    label: "Now",
+    href: "/now/",
+    current: Astro.url.pathname === "/now/" ? "current" : null,
+  },
+  {
+    label: "Blog",
+    href: "/blog/",
+    current: Astro.url.pathname.startsWith("/blog/") ? "current" : null,
+  },
+
+];
 ---
 
 <header>
   <h1>{headerTitle}</h1>
   <nav>
     <ul>
-      <li class={Astro.url.pathname === "/" ? "current" : null}><a href="/">Home</a></li>
-      <li class={Astro.url.pathname === "/now/" ? "current" : null}><a href="/now/">Now</a></li>
-      <li class={Astro.url.pathname.startsWith("/blog/") ? "current" : null}><a href="/blog/">Blog</a></li>
+      {navItems.map((item) => (
+        <li class={item.current}><a href={item.href}>{item.label}</a></li>
+      ))}
     </ul>
   </nav>
 </header>
 
 <style>
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 0;
+  row-gap: 1em;
+}
+
 h1 {
-  padding: .5em 0;
   text-align: center;
 }
 
 ul {
+  column-gap: 2.5em;
   display: flex;
-  gap: 3em;
-  justify-content: center;
 }
 
-li {
-  font-size: 1.1rem;
+a:hover {
+  text-decoration: underline;
 }
 
 .current {

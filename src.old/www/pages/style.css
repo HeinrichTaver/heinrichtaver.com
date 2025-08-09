@@ -34,35 +34,6 @@ img {
   height: auto;
 }
 
-/* Header */
-
-header * {
-  font-family: var(--ui-sans-serif);
-}
-
-header h1 {
-  padding: 0 0 10px;
-}
-
-header li {
-  display: inline-block;
-  padding: 5px 10px;
-  width: 75px;
-}
-
-header a {
-  padding: 5px 10px;
-}
-
-header a:hover {
-  text-decoration: underline;
-}
-
-header > a {
-  color: #0000ee;
-  text-decoration: underline;
-}
-
 /* Main */
 
 main {
@@ -99,16 +70,6 @@ main p {
   line-height: 1.4em;
   margin: 0 auto 1em;
   text-align: justify;
-}
-
-/* Footer */
-
-footer a {
-  font-family: var(--ui-monospace);
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 /* Modifiers */

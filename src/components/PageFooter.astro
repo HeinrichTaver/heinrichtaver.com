@@ -1,6 +1,33 @@
+---
+const hostname = new URL(Astro.site).hostname;
+const currentYear = new Date().getFullYear();
+---
+
 <footer>
-  <a href="/">heinrichtaver.com</a>
+  <a href="/">{hostname}</a>
   <p>
-    © 2019 - {new Date().getFullYear()} Heinrich Taver. All rights reserved.
+    © 2019 - {currentYear} Heinrich Taver. All rights reserved.
   </p>
 </footer>
+
+<style>
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+  row-gap: .5em;
+}
+
+a {
+  font-family: var(--ui-monospace);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  font-size: .75rem;
+}
+</style>
