@@ -2,36 +2,7 @@
 
 * {
   box-sizing: border-box;
-  overflow: hidden;
   user-select: none;
-}
-
-html,
-body {
-  overflow: visible;
-}
-
-header,
-main,
-footer {
-  margin: 0 auto;
-  max-width: 650px;
-}
-
-header,
-footer {
-  padding: 25px;
-  text-align: center;
-}
-
-h1,
-h2 {
-  font-family: var(--ui-sans-serif);
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 /* Main */
@@ -49,15 +20,6 @@ main li {
   list-style: initial;
   margin: 0 auto 1em;
   overflow: visible;
-}
-
-main h2 {
-  margin: 2em auto 1em;
-  text-align: center;
-}
-
-main p {
-  margin: 0 auto 1em;
 }
 
 /* Modifiers */
