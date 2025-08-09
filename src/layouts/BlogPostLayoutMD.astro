@@ -20,12 +20,26 @@ const formattedDate = (timestamp) => {
 ---
 
 <BaseLayout pageTitle={pageTitle} headerTitle={frontmatter.title}>
-  <a href="/blog/">Go back to the post list</a>
-  <p>
-    <small>
-      <em>Written on <time datetime={pubDate}>{formattedDate(frontmatter.pubDate)}</time></em>.
-    </small>
-  </p>
+  <div>
+    <a href="/blog/">Go back to the post list</a>
+    <p>
+      Written on <time datetime={pubDate}>{formattedDate(frontmatter.pubDate)}</time>.
+    </p>
+  </div>
 
   <slot />
 </BaseLayout>
+
+<style>
+div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: .5em;
+}
+
+p {
+  font-size: 1rem;
+  font-style: italic;
+}
+</style>

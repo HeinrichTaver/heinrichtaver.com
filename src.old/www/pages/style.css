@@ -11,17 +11,6 @@ main * {
   user-select: text;
 }
 
-main ul {
-  padding: 0 25px;
-}
-
-main li {
-  font-size: 1.2em;
-  list-style: initial;
-  margin: 0 auto 1em;
-  overflow: visible;
-}
-
 /* Modifiers */
 
 .select-text,
@@ -32,9 +21,4 @@ main li {
 .select-none,
 .select-none * {
   user-select: none;
-}
-
-.width-400px-centralized {
-  margin: 0 auto;
-  max-width: 450px;
 }
