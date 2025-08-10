@@ -58,4 +58,4 @@ DisallowAITraining: /
 Content-Usage: ai=n
 Allow: /
 
-Sitemap: https://heinrichtaver.com/sitemap-index.xml
+Sitemap: https://www.heinrichtaver.com/sitemap-index.xml
