@@ -5,7 +5,7 @@ headerTitle: Heinrich Taver's Home Page
 ---
 
 Hello.
-This is my *home page*.
+This is my _home page_.
 
 Check my [now page](/now/) if you want to know what I am doing with my life right now.
 

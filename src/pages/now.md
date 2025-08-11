@@ -18,7 +18,6 @@ Last update was in **July 2024**.
 
 [now page]: https://nownownow.com/about
 
-
 ## I Injured My Left Knee, Now I Am Getting Both Stronger Than Ever
 
 Unfortunately I injured my left knee.
@@ -30,7 +29,7 @@ I decided to fix this situation once and for all.
 I took an entire month of rest, spending a lot of time deep diving into the issue and trying to solve it myself.
 Whenever I face issues that are not life threatening, I like to take my time and learn.
 
-Recently I found *Ben Patrick*, known on the Internet as *The Knee Over Toes Guy*.
+Recently I found _Ben Patrick_, known on the Internet as _The Knee Over Toes Guy_.
 Check [his story] and also [his YouTube channel].
 His approach is unorthodox but also very sound.
 I am doing the routine from his book [Knee Ability Zero] for a few weeks already and my legs are feeling incredible.
@@ -43,30 +42,28 @@ If you want to know more, read my post titled [I Am Not a Superman].
 [Knee Ability Zero]: https://www.amazon.com/Knee-Ability-Zero-Ben-Patrick/dp/B09KNGDYGL
 [I Am Not a Superman]: /blog/not-superman/
 
-
 ## I Finished My New Floating Desk Table
 
 Admittedly, this project took much longer than it should have, but it ended up culminating into something that I am very proud of.
 It is an amalgamation of several concepts that I have been researching since 2022, mixed and matched for my needs.
 Maybe someday I will write in detail about it.
 
-The mais source of success for this project was the fact that I have a mother who knows her way around carpentry.
+The main source of success for this project was the fact that I have a mother who knows her way around carpentry.
 
 ![Floating desk table, with keyboard tray openned](../images/floating-desk-table.jpg)
 
-
 ## I Started to Dabble My Feet in the Vast Sales Ocean
 
-Although I am not a fan of the modern mechanicist discourse around life—as an example, we are described as "meat robots" by some people—, there are some principles that are reasonably encapsulated within some of this vocabulary: human interaction revolves around *transactions*.
-When looking for a wife, you will *sell* yourself to her as her soulmate;
-when making friends with someone, you two are *bartering* comradeship;
-when looking for a job, you are presenting yourself as an *asset* to a company;
+Although I am not a fan of the modern mechanicist discourse around life—as an example, we are described as "meat robots" by some people—, there are some principles that are reasonably encapsulated within some of this vocabulary: human interaction revolves around _transactions_.
+When looking for a wife, you will _sell_ yourself to her as her soulmate;
+when making friends with someone, you two are _bartering_ comradeship;
+when looking for a job, you are presenting yourself as an _asset_ to a company;
 and so on and so forth.
 
 To people like me, closer to the introverted and shy side of life's equation, living life without sales skills is just bad.
 You can divert your mind from this fact by neverending gaming sessions, marathoning your favorite series at any streaming service, or whatever suits your fancy, then choosing the best coping rationalization for why this is actually a good thing, but deep down you know that things could be improved if you knew how to present yourself better to the world.
-Well, things *can* and *will* be better if we put some effort.
+Well, things _can_ and _will_ be better if we put some effort.
 
 I do not know if learning online marketing/sales is a good start, but it is a start and this is more than enough for me.
-You can expect to see some posts popping up around here about this subject—and its adjecent effects—, but none will be written as that disgraceful *Instagram millionarie guru* model that everyone seems to copy.
+You can expect to see some posts popping up around here about this subject—and its adjecent effects—, but none will be written as that disgraceful _Instagram millionarie guru_ model that everyone seems to copy.
 I will be writting to improve my learning, so expect some grounded, practical and realistic perspective on things as I learn, apply and improve on them.

@@ -1,44 +1,58 @@
 ---
-import BaseLayout from "./BaseLayout.astro"
+import BaseLayout from "./BaseLayout.astro";
 
 import "../styles/markdown.css";
 
 const { frontmatter } = Astro.props;
 
 const pageTitle = `${frontmatter.title} | Heinrich's Post`;
-const pubDate = frontmatter.pubDate.slice(0,10);
+const pubDate = frontmatter.pubDate.slice(0, 10);
 
 const formattedDate = (timestamp) => {
   const [year, month, day] = pubDate.split("-");
 
-  const months = [ "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December" ];
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
   const monthName = months[parseInt(month, 10) - 1];
 
   return `${year} ${monthName} ${parseInt(day, 10)}`;
-}
+};
 ---
 
 <BaseLayout pageTitle={pageTitle} headerTitle={frontmatter.title}>
   <a href="/blog/" hidden>Go back to the post list</a>
 
   <p>
-    Written on <time datetime={pubDate}>{formattedDate(frontmatter.pubDate)}</time>.
+    Written on <time datetime={pubDate}
+      >{formattedDate(frontmatter.pubDate)}</time
+    >.
   </p>
 
   <slot />
 </BaseLayout>
 
 <style>
-a {
-  display: block;
-  text-align: center;
-  user-select: none;
-}
+  a {
+    display: block;
+    text-align: center;
+    user-select: none;
+  }
 
-p {
-  font-size: 1rem;
-  font-style: italic;
-  text-align: center;
-}
+  p {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+  }
 </style>

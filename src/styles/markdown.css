@@ -3,7 +3,8 @@ main {
     font-family: var(--ui-serif);
   }
 
-  p, li {
+  p,
+  li {
     font-size: 1.2rem;
     line-height: 1.25em;
     text-align: justify;
@@ -16,14 +17,14 @@ main {
 
   h2 {
     font-family: var(--ui-sans-serif);
-    margin-top: .75em;
+    margin-top: 0.75em;
     text-align: center;
   }
 
   ul {
     display: flex;
     flex-direction: column;
-    row-gap: .5em;
+    row-gap: 0.5em;
   }
 
   li {

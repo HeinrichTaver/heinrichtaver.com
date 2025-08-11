@@ -3,11 +3,16 @@
     "@astrojs/sitemap": "^3.4.2",
     "astro": "^5.12.9"
   },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-astro": "^0.14.1"
+  },
   "name": "heinrichtaver.com",
   "scripts": {
     "astro": "astro",
     "build": "astro build",
     "dev": "astro dev",
+    "format": "prettier . --write",
     "preview": "astro preview"
   },
   "type": "module",

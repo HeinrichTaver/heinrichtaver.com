@@ -5,17 +5,17 @@ pubDate: 2024-07-16
 ---
 
 In August last year I went back to training at a gym.
-I spent a few years away from it, whether it was trying out *calisthenics* or being creative with some *kettlebells* I bought during the pandemic.
+I spent a few years away from it, whether it was trying out _calisthenics_ or being creative with some _kettlebells_ I bought during the pandemic.
 Although some people manage to get excellent results by those means, to me it was not working out.
 Just like in a treadmill, I was doing lots of effort, but ultimately not moving anywhere.
-After I found out that a gym with a *squat rack*—a rarity around here—openned close to home, getting my membership there was a no-brainer.
+After I found out that a gym with a _squat rack_—a rarity around here—openned close to home, getting my membership there was a no-brainer.
 
 Like many people around the world, I like to obsess over details and get nowhere.
 To prevent this from happening, I simply consulted my primary fitness source: [Martin Berkhan].
 In his book [The Leangains Method] he lays down a pretty efficient training routine I had done before:
 3 days per week;
 2 compound exercises and 1 accessory per day;
-all sets done in a *as many repetitions as possible* (AMRAP) style;
+all sets done in a _as many repetitions as possible_ (AMRAP) style;
 increase the weight whenever you achieve the reps target for each exercise.
 When (re)starting to exercise, the worst thing you can do is get into some extravagant routine.
 Doing 10 exercises each day, not really knowing why and also not learning proper technique—something which requires focus and time—is a recipe for disaster.
@@ -45,13 +45,13 @@ Well, it worked.
 Sort of.
 The issue here is that I was fixing the symptoms but not the root cause.
 
-*I am not a kid anymore and my overall sedentary lifestyle is taking its toll.*
+_I am not a kid anymore and my overall sedentary lifestyle is taking its toll._
 Coming to terms with this reality, I spent an entire month barely moving my legs and throughly researching everything about body anatomy, muscles, biomechanics and all sorts of intricate details.
 In the end, by accident, I came across [Ben Patrick].
-Known on the Internet as *The Knee Over Toes Guy*, this man faced similar issues in his childhood as I am having right now.
+Known on the Internet as _The Knee Over Toes Guy_, this man faced similar issues in his childhood as I am having right now.
 Fortunately for me, my situation is nowhere near what he went through.
 [You can read his story here].
-And fortunately for me also, this meant that *there is* light at the end of the tunnel.
+And fortunately for me also, this meant that _there is_ light at the end of the tunnel.
 
 I am doing the routine from his book [Knee Ability Zero] for a few weeks already and both of my legs are feeling incredible.
 There are still some discomforts, but I am slowly but surely getting rid of them.
@@ -62,9 +62,9 @@ I like Ben's approach of building your body from the ground up, so I decided to 
 After about 1 month into his routine, my legs are more than good enough for me to go back to the gym, taking care of everything above my waist.
 Tapping into Martin's routines, using fixed rep scheme and changing the progression system to step loading instead of his [RPT system] I designed the following workout regimen:
 
-* Monday, Wednesday, Friday: *Knee Ability Zero*
-* Tuesday: *Bench press, Barbell row, Barbell lying triceps extension*
-* Thursday: *Overhead press, Supinated lat pulldown, biceps curl*
+- Monday, Wednesday, Friday: _Knee Ability Zero_
+- Tuesday: _Bench press, Barbell row, Barbell lying triceps extension_
+- Thursday: _Overhead press, Supinated lat pulldown, biceps curl_
 
 As this kind of information can potentially help someone, I will report back as progress is made.
 Maybe my journey can lead you away from your own body pain too.

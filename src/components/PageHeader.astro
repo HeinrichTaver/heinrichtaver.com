@@ -17,7 +17,6 @@ const navItems = [
     href: "/blog/",
     current: Astro.url.pathname.startsWith("/blog/") ? "current" : null,
   },
-
 ];
 ---
 
@@ -25,38 +24,42 @@ const navItems = [
   <h1>{headerTitle}</h1>
   <nav>
     <ul>
-      {navItems.map((item) => (
-        <li class={item.current}><a href={item.href}>{item.label}</a></li>
-      ))}
+      {
+        navItems.map((item) => (
+          <li class={item.current}>
+            <a href={item.href}>{item.label}</a>
+          </li>
+        ))
+      }
     </ul>
   </nav>
 </header>
 
 <style>
-header {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5em 0;
-  row-gap: 1em;
-  user-select: none;
-}
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 0;
+    row-gap: 1em;
+    user-select: none;
+  }
 
-h1 {
-  text-align: center;
-}
+  h1 {
+    text-align: center;
+  }
 
-ul {
-  column-gap: 2.5em;
-  display: flex;
-}
+  ul {
+    column-gap: 2.5em;
+    display: flex;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
+  a:hover {
+    text-decoration: underline;
+  }
 
-.current {
-  font-weight: bold;
-  pointer-events: none;
-}
+  .current {
+    font-weight: bold;
+    pointer-events: none;
+  }
 </style>
