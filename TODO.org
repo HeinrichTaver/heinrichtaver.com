@@ -2,34 +2,77 @@
 #+date: <2024-09-06 sex>
 #+author: Heinrich van Tol Taver
 
-* TODO Refatorar CSS usando BEM
+* [2/7] 2026
 
-Já que tenho usado a técnica de /Block Element Modifier/ em todos os
-meus sites, faz sentido que o meu site pessoal também esteja no mesmo
-padrão.
+** TODO Implement headless CMS, such as TinaCMS
 
-* TODO Entender como devo usar ~<article>~ para o blog
+Not only will it be easier to create  content, but it also brings a more modern
+approach to how companies develop websites today.
+
+** TODO Implement CI/CD workflow via GitHub Actions
+
+Everyone uses CI/CD workflows. It's the  industry standard. I've never used it,
+so I need to learn.
+
+** TODO Refactor site in TypeScript
+
+JavaScript?  I've  never even  heard  of  it.  JavaScript  is dead;  long  live
+JavaScript!
+
+** TODO Style the site with Tailwind CSS
+
+I know  CSS well, but since  everyone is using  Tailwind, it's good to  keep my
+skills sharp.
+
+** TODO Style the site with a better visual identity
+
+Currently,  my site  has  a very  minimalist look,  inspired  by the  graphical
+interfaces of eReaders. I think it could be a bit more interesting.
+
+** DONE Review git history
+CLOSED: [2026-02-25 qua 19:52]
+
+I need to make sure that no sensitive  data end up in the eternal memory of the
+Internet.
+
+** DONE Translate everything to American English
+CLOSED: [2026-02-25 qua 20:04]
+
+The Internet operates  in English, so if  I want to expose  a project publicly,
+I'll do it in English.
+
+* [1/5] Legacy
+
+** TODO Understand how to use ~<article>~ for the blog
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
 
-* TODO Identificar como eu poderia usar o Structure Data no meu site
+** TODO Identify how I could use Structured Data on my site
 
 https://developer.chrome.com/docs/lighthouse/seo/structured-data
 
-Esta é uma melhoria sugerida pela ferramenta /Lighthouse/ presente nos
-navegadores /Chromium/. Quanto mais coisa eu puder adicionar ao meu
-site, fazendo-o se parecer com algo extremamente profissional, melhor.
+This  is a  suggested improvement  from the  Lighthouse tool  in Chromium-based
+browsers. The more I can add to my site to make it look extremely professional,
+the better.
 
-* TODO Entender como devo usar ~picture~ no lugar da tag ~img~
+** TODO Understand how to use ~picture~ instead of the ~img~ tag
 
 https://www.w3schools.com/tags/tag_picture.asp
 
-Aparentemente há uma solução nativa dos navegadores que permite
-trabalhar com diferentes resoluções de imagem, de maneira responsiva.
+Apparently,  there's  a  native  browser  solution  that  allows  working  with
+different image resolutions in a responsive way.
 
-* TODO Adicionar analytics ao site
+** TODO Add analytics to the site
 
-Aqui posso simplesmente copiar o que faço no
-https://deals-curator.com, ou posso explorar abordagens alternativas,
-como desenvolver algo eu mesmo, ou simplesmente usar ferramentas que
-permitam análise de logs, como um /GoatCounter/ hospedado no NAS.
+Here I can simply copy what I do on https://deals-curator.com, or I can explore
+alternative approaches,  such as developing  something myself, or  simply using
+tools that allow log analysis, such as a /GoatCounter/ hosted on the NAS.
+
+** +Refactor CSS using BEM+
+CLOSED: [2026-02-25 qua 20:07]
+
+Since I've  used the Block  Element Modifier technique  in all my  websites, it
+makes sense that my personal website also follows the same pattern.
+
+[2026-02-25] With the decision to use  Tailwind CSS on this website, there's no
+reason to pursue BEM anymore.
