@@ -1,5 +1,4 @@
 *
-!*/
 
 !.gitignore
 !.prettierignore
@@ -9,7 +8,9 @@
 !package-lock.json
 !package.json
 !prettier.config.mjs
+!public
 !public/*
+!src
 !src/**
 !tsconfig.json
 !vercel.json
