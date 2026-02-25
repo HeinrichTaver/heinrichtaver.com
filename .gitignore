@@ -1,0 +1,15 @@
+*
+!*/
+
+!.gitignore
+!.prettierignore
+!README.md
+!TODO.org
+!astro.config.mjs
+!package-lock.json
+!package.json
+!prettier.config.mjs
+!public/*
+!src/**
+!tsconfig.json
+!vercel.json
