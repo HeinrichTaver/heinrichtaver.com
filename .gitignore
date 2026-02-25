@@ -5,6 +5,7 @@
 !README.md
 !TODO.org
 !astro.config.mjs
+!mise.toml
 !package-lock.json
 !package.json
 !prettier.config.mjs
