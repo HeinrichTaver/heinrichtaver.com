@@ -4,6 +4,12 @@
 
 * [2/7] 2026
 
+** TODO Migrate from Vercel to Cloudflare
+
+Since Astro got acquired by Cloudflare, I  believe that is a good enough excuse
+for me  to migrate and  learn a  new platform.  If  not for the  learning part,
+there's no reason to change anything.
+
 ** TODO Implement headless CMS, such as TinaCMS
 
 Not only will it be easier to create  content, but it also brings a more modern
