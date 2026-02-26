@@ -46,6 +46,7 @@ npm run preview
 ```
 
 
-## Licensing
+## ⚖️ Licensing
 
 - Code (`/src`): [MIT License](https://spdx.org/licenses/MIT.html), see `LICENSE`
+- Content (`src/pages/**.md`): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), see `LICENSE-CONTENT.md`

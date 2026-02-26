@@ -3,6 +3,7 @@
 !.gitignore
 !.prettierignore
 !LICENSE
+!LICENSE-CONTENT.md
 !README.md
 !TODO.org
 !astro.config.mjs
