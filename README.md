@@ -44,3 +44,8 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+
+## Licensing
+
+- Code (`/src`): [MIT License](https://spdx.org/licenses/MIT.html), see `LICENSE`
