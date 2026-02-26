@@ -14,56 +14,97 @@ Here you can get a glimpse of what I am currently doing with my life.
 Who knows, maybe you can find a tip here and there.
 
 This page will be in constant motion, depending on my circumstances, so check it out every once and a while.
-Last update was in **July 2024**.
+Last update was in **February 2026**.
 
 [now page]: https://nownownow.com/about
 
-## I Injured My Left Knee, Now I Am Getting Both Stronger Than Ever
 
-Unfortunately I injured my left knee.
-Not the first time this year, mind you.
-But I am done with this recurrent situation.
-Before, I had hurt them outside the gym, but now during an exercise I have noticed a serious issue.
+## Lessons From a Failed Startup
 
-I decided to fix this situation once and for all.
-I took an entire month of rest, spending a lot of time deep diving into the issue and trying to solve it myself.
-Whenever I face issues that are not life threatening, I like to take my time and learn.
+Last year, I tried starting my own business:
+leveraging my AdTech developer experience to build a niche analytics platform.
 
-Recently I found _Ben Patrick_, known on the Internet as _The Knee Over Toes Guy_.
-Check [his story] and also [his YouTube channel].
-His approach is unorthodox but also very sound.
-I am doing the routine from his book [Knee Ability Zero] for a few weeks already and my legs are feeling incredible.
-I will report back as progress occurs.
+I learned a lot during that time, both about affiliate marketing and myself.
+Several personality traits I thought I had don't exist;
+others, I'm glad I discovered.
 
-If you want to know more, read my post titled [I Am Not a Superman].
+I'll probably write blog posts about key lessons from that period, so keep an eye on my [blog](/blog/).
 
-[his story]: https://www.atgonlinecoaching.com/articles/knee-ability-zero-ch-1
-[his YouTube channel]: https://www.youtube.com/channel/UCGybO-bWZ3W6URh42sdMQiw
-[Knee Ability Zero]: https://www.amazon.com/Knee-Ability-Zero-Ben-Patrick/dp/B09KNGDYGL
-[I Am Not a Superman]: /blog/not-superman/
+The key takeaway:
+developing perfect code means nothing without a clear business plan.
 
-## I Finished My New Floating Desk Table
+Which brings me to...
 
-Admittedly, this project took much longer than it should have, but it ended up culminating into something that I am very proud of.
-It is an amalgamation of several concepts that I have been researching since 2022, mixed and matched for my needs.
-Maybe someday I will write in detail about it.
 
-The main source of success for this project was the fact that I have a mother who knows her way around carpentry.
+## I’m Actively Looking for an International Contractor Job
 
-![Floating desk table, with keyboard tray openned](../images/floating-desk-table.jpg)
+Being stubborn only takes you so far.
 
-## I Started to Dabble My Feet in the Vast Sales Ocean
+After piling up debt and leaning on amazing people during tough times, I finally did what I should have done long ago:
+pursue a job at an inspiring foreign tech company (or something close).
 
-Although I am not a fan of the modern mechanicist discourse around life—as an example, we are described as "meat robots" by some people—, there are some principles that are reasonably encapsulated within some of this vocabulary: human interaction revolves around _transactions_.
-When looking for a wife, you will _sell_ yourself to her as her soulmate;
-when making friends with someone, you two are _bartering_ comradeship;
-when looking for a job, you are presenting yourself as an _asset_ to a company;
-and so on and so forth.
+I'm English-fluent with a Brazilian business entity, an international bank account, and proven async experience across Chile, the United States, and Australia.
+I'm a tech generalist, being strongest in front-end due to life circumstances, but comfortable anywhere in the stack.
 
-To people like me, closer to the introverted and shy side of life's equation, living life without sales skills is just bad.
-You can divert your mind from this fact by neverending gaming sessions, marathoning your favorite series at any streaming service, or whatever suits your fancy, then choosing the best coping rationalization for why this is actually a good thing, but deep down you know that things could be improved if you knew how to present yourself better to the world.
-Well, things _can_ and _will_ be better if we put some effort.
+[David Heinemeier Hansson]'s "[Pay Yourself First]" essay hits home perfectly for my situation:
+take advantage of your privileges and build on them.
+Several people around me see my skills the same way and are rooting for me to do just that.
 
-I do not know if learning online marketing/sales is a good start, but it is a start and this is more than enough for me.
-You can expect to see some posts popping up around here about this subject—and its adjecent effects—, but none will be written as that disgraceful _Instagram millionarie guru_ model that everyone seems to copy.
-I will be writting to improve my learning, so expect some grounded, practical and realistic perspective on things as I learn, apply and improve on them.
+So what am I waiting for?
+
+[David Heinemeier Hansson]: https://world.hey.com/dhh
+[Pay Yourself First]: https://world.hey.com/dhh/pay-yourself-first-e86f8147
+
+
+## Ruby on Rails, or “How I Neglected Such a Wonderful Framework for So Long?”
+
+[Ruby] was the first programming language I learned.
+I vividly remember devouring [Learn Ruby the Hard Way] (2nd edition) and being amazed by its syntax and structure.
+Then I started playing around with the language.
+
+One of my first attempts at entrepreneurship was building a document analyzer during my first internship at a company that processed ginormous volumes of PDFs, inserting them into specialized insurance software.
+The problem was that many PDFs were poorly made, so they couldn't be processed by the software and had to be manually input.
+My younger self thought a clever Ruby desktop app could boost output n-times over, but the company staff didn't agree.
+
+Anyway, then life happened.
+
+I started my pro career as a vanilla JavaScript dev in AdTech, then evolved into a mix of languages (Python, TypeScript, Go, others).
+
+Recently, for whatever reason (maybe I'm reading too many DHH essays), Rails hit my radar.
+I decided to take a closer look.
+Oh boy, why didn't I start with it sooner?
+
+I liked it so much that...
+
+[Ruby]: https://ruby-lang.org
+[Learn Ruby the Hard Way]: http://learnrubythehardway.org/book/
+
+
+## I’m Working on the Gym App to End All Gym Apps, Powered by Rails
+
+People say that the best inventions start by their inventors scratching their own itches.
+It's time for me to scratch mine.
+
+I've been into resistance training for around a decade.
+My first years were a mess, mostly because I was in a complicated relationship that drained my energy and was a never-ending source of stress.
+Also, because I honestly didn't know what I was supposed to do, so I just followed whatever the gym instructors said.
+
+Fast-forward to 2018, when it finally clicked and I started really enjoying the gym.
+I devoured every book and textbook that piqued my curiosity:
+learning to program my own routines, target muscle groups better, figure out rest needs, and more.
+As I got good at it, 2019 happened.
+That was an entire year of hedonistic misadventures.
+I couldn't keep up with work, gym, and partying, so I had to give up something.
+I gave up the gym, only returning in August 2023.
+
+Anyway, where does this lead?
+
+Throughout my gym journey, I've picked up tracking techniques and become an avid pen-and-paper user for workouts.
+I also have spreadsheets and digital files calculating everything interesting.
+
+I'm convinced I can blend and improve it all into a tight web app.
+Made for gym nerds, by a gym nerd.
+
+It'll stand out from everything on the market.
+It'll be an invaluable tool for anyone who shares my passion.
+Or at least, it'll simplify my current tracking mess.
