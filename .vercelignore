@@ -1,0 +1,11 @@
+*
+
+!astro.config.mjs
+!package-lock.json
+!package.json
+!public
+!public/*
+!src
+!src/**
+!tsconfig.json
+!vercel.json

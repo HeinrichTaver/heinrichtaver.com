@@ -2,6 +2,7 @@
 
 !.gitignore
 !.prettierignore
+!.vercelignore
 !LICENSE
 !LICENSE-CONTENT.md
 !README.md
