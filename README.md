@@ -15,7 +15,7 @@
 ### Clone & setup
 
 ```sh
-git clone https://github.com/HeinrichTaver/heinrichtaver.com
+git clone https://github.com/HeinrichTaver/heinrichtaver.com.git
 cd heinrichtaver.com
 ```
 
